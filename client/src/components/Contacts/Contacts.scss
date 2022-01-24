@@ -1,0 +1,42 @@
+.contacts {
+    padding: 5px 5px;
+    width: 90%;
+    height: 800px;
+    overflow: auto;
+    .miniCard {
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        padding: 5px 5px;
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+        border-radius: 10px;
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .add {
+                height: 25px;
+                width: 25px;
+                padding: 5px 5px;
+                border-radius: 50%;
+                border-style: none;
+                border: 1px solid rgb(88, 88, 241);
+                color: rgb(88, 88, 241);
+            }
+            .add:hover {
+                background-color: rgb(88, 88, 241);
+                color: white;
+            }
+        }
+        
+    }
+}
+.modal::-webkit-scrollbar {
+    display: none;
+}
